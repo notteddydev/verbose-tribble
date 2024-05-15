@@ -1,5 +1,7 @@
 __pycache__/
+
 /verbosetribble/images/*/*
 !/verbosetribble/images/*/.gitkeep
+
 /verbosetribble/processed/*
 !/verbosetribble/processed/.gitkeep
