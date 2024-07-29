@@ -1,4 +1,5 @@
-# Python package for rotating image files in multiples of 90 degrees.
+# verbose-tribble
+Python package for rotating image files in multiples of 90 degrees.
 
 ### How to use:
 
