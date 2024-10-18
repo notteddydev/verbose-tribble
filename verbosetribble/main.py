@@ -1,3 +1,7 @@
+"""
+Used for rotating images. Doesn't really work that well lol.
+"""
+
 import os
 import os.path
 
@@ -24,7 +28,7 @@ for img_subdir in img_subdirs:
 
         try:
             with Image.open(file_path) as image:
-                right_way_up = image.rotate(degrees_to_rotate, resample=None, expand=True)
+                right_way_up = image.rotate(degrees_to_rotate, expand=True)
                 right_way_up.save(output_file_path)
                 right_way_up.close()
 
